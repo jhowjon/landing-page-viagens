@@ -69,3 +69,88 @@
   font-size: 15px;
   font-weight: 500;
 }
+
+img {
+  width: 100%;
+}
+
+.hero__content {
+  width: 42%;
+}
+
+.hero__content-options-select {
+  width: 471px;
+}
+
+.hero__container {
+  margin-top: 124px;
+  width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__content-title {
+  width: 356px;
+  color: #202336;
+  font-family: "Playfair Display";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.hero__content-holiday-finder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__content-description {
+  margin-top: 74px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 22px;
+  color: #202336;
+  border-bottom: 4px solid #202336;
+  padding-bottom: 21px;
+}
+
+.hero__form {
+  margin-top: 71px;
+  margin-bottom: 51px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 35px;
+}
+
+.hero__form-options {
+  width: calc(50% - 15px);
+  height: 52px;
+  border-radius: 6px;
+  border: 0.8px solid #afb0b9;
+  padding-left: 31px;
+  color: #4a4c53;
+  font-family: "Inter";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hero__content-explore {
+  display: block;
+  width: 132px;
+  height: 44px;
+  border-radius: 8px;
+  background-color: #fb8f1d;
+  text-align: center;
+  line-height: 44px;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.hero__ilustration {
+  width: 50%;
+}
