@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.header {
+  margin-top: 54px;
+}
+
+.header__container {
+  width: 1120px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu {
+  width: 662px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu-link {
+  color: #b8becd;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header__menu-link-home {
+  color: #202336;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.header__link-login {
+  width: 132px;
+  height: 44px;
+  border-radius: 8px;
+  border: 1px solid #fb8f1d;
+  text-align: center;
+  line-height: 44px;
+  color: #fb8f1d;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 500;
+}
+.header__link-register {
+  width: 132px;
+  height: 44px;
+  border-radius: 8px;
+  background-color: #fb8f1d;
+  text-align: center;
+  line-height: 44px;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 500;
+}
