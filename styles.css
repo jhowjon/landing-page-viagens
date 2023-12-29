@@ -326,3 +326,70 @@ img {
 .information__guides-image {
   width: 50%;
 }
+
+.testimonial__container {
+  margin-top: 178px;
+  width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial__content {
+  width: 57%;
+}
+
+.testimonial__title {
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 700;
+}
+.testimonial__image {
+  width: 189px;
+  margin-top: 54px;
+}
+
+.testimonial__image-star {
+  width: 24px;
+}
+
+.testimonial__description {
+  margin-top: 30px;
+  color: #000;
+  font-family: "Mulish";
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.testimonial__author {
+  width: 183px;
+  margin-top: 30px;
+}
+
+.testimonial_Edward {
+  color: #000;
+  font-family: "Inter";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.testimonial__founder {
+  color: rgba(0, 0, 0, 0.85);
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.testimonial__image-people {
+  width: 35%;
+}
+
+.testimonial__edward {
+  border-radius: 14px;
+  background-color: #c4c4c4;
+}
