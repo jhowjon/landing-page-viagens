@@ -213,3 +213,67 @@ img {
   font-style: normal;
   font-weight: 600;
 }
+
+.featured__container-header {
+  margin-top: 213px;
+  width: 1120px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.featured__title {
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.featured__link {
+  color: #fb8f1d;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.featured__link-image {
+  width: 4px;
+  height: 96;
+}
+
+.featured__container-images {
+  margin-top: 51px;
+  width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.featured__card {
+  position: relative;
+}
+
+.featured__images {
+  border-radius: 8px;
+  background: #c4c4c4;
+}
+
+.featured__content-description {
+  position: absolute;
+  bottom: 0;
+  width: 120px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 0px 6px 0px 0px;
+  background: #fff;
+}
