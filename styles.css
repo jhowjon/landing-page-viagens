@@ -110,9 +110,17 @@ img {
   font-family: "Inter";
   font-weight: 600;
   font-size: 22px;
-  color: #202336;
-  border-bottom: 4px solid #202336;
   padding-bottom: 21px;
+}
+
+.hero__content-description::after {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 2px;
+  border-radius: 4px;
+  background-color: #202336;
+  margin-top: 21px;
 }
 
 .hero__form {
@@ -153,4 +161,55 @@ img {
 
 .hero__ilustration {
   width: 50%;
+}
+
+.information__container {
+  margin-top: 204px;
+  width: 1120px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.information__image {
+  width: 51%;
+}
+
+.information__text {
+  width: 40%;
+}
+
+.information__title {
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+.information__description-title {
+  color: #7d7987;
+  font-family: "Mulish";
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 33px;
+}
+
+.information__link {
+  display: block;
+  width: 164px;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 8px;
+  background-color: #fb8f1d;
+  text-align: center;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
 }
