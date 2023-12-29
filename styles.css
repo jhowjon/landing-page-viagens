@@ -271,9 +271,58 @@ img {
 .featured__content-description {
   position: absolute;
   bottom: 0;
+  padding-top: 11px;
+  padding-bottom: 5px;
   width: 120px;
   height: 56px;
-  flex-shrink: 0;
+  text-align: left;
   border-radius: 0px 6px 0px 0px;
   background: #fff;
+}
+
+.information__guides-container {
+  width: 1120px;
+  margin-top: 184px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.informarion__guides {
+  width: 42%;
+}
+
+.information__guides-title {
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 700;
+}
+.information__guides-description {
+  margin-top: 20px;
+  color: #7d7987;
+  font-family: "Mulish";
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.infomation__guides-download {
+  margin-top: 39px;
+  width: 164px;
+  border-radius: 8px;
+  display: block;
+  background: #fb8f1d;
+  color: #fff;
+  text-align: center;
+  line-height: 48px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.information__guides-image {
+  width: 50%;
 }
