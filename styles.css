@@ -234,7 +234,7 @@ img {
 
 .featured__link {
   color: #fb8f1d;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 17px;
   font-style: normal;
   font-weight: 600;
@@ -246,7 +246,6 @@ img {
 
 .featured__link-image {
   width: 4px;
-  height: 96;
 }
 
 .featured__container-images {
@@ -392,4 +391,84 @@ img {
 .testimonial__edward {
   border-radius: 14px;
   background-color: #c4c4c4;
+}
+
+.trending__container {
+  margin-top: 160px;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 1125px;
+}
+
+.trending__container-header {
+  width: 1120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trending_title {
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.trending__link {
+  color: #fb8f1d;
+  font-family: "Inter";
+  font-size: 17px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.trendig__link-image {
+  width: 4px;
+}
+
+.trending__cards-container {
+  width: 1125px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.trending__cards {
+  margin-top: 31px;
+  width: 266px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.trending__cards-image {
+  width: 261px;
+  border-radius: 8px;
+  background: #032204;
+}
+
+.trending__cards-title {
+  margin-top: 13px;
+  margin-bottom: 13px;
+  color: #000;
+  font-family: "Inter";
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.trending__cards-description {
+  margin-bottom: 23px;
+  color: #7d7987;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.trending__cards-link {
+  color: #fb8f1d;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 600;
 }
