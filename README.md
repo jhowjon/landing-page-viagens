@@ -6,7 +6,7 @@ Elaboração de um site de viagens.
 
 ## 🧑🏻‍💻 Live Preview
 
-https://jhowjon.github.io/-landing-page-viagens/
+https://jhowjon.github.io/landing-page-viagens/
 
 ## 👨🏻‍🎨 Design
 
