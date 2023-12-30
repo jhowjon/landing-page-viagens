@@ -130,7 +130,6 @@ img {
   font-family: "Inter";
   font-weight: 600;
   font-size: 22px;
-  padding-bottom: 21px;
 }
 
 .hero__content-description::after {
@@ -144,7 +143,7 @@ img {
 }
 
 .hero__form {
-  margin-top: 71px;
+  margin-top: 48px;
   margin-bottom: 51px;
   display: flex;
   flex-wrap: wrap;
@@ -334,12 +333,23 @@ img {
   position: absolute;
   bottom: 0;
   padding-top: 11px;
-  padding-bottom: 5px;
   width: 120px;
-  height: 56px;
-  text-align: left;
   border-radius: 0px 6px 0px 0px;
   background: #fff;
+}
+
+.featured__container-title {
+  font-family: "Inter";
+  font-size: 17px;
+}
+
+.featured__container-country {
+  color: #80918e;
+  font-family: "Inter";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
 }
 
 .information__guides-container {
@@ -607,13 +617,14 @@ img {
 }
 
 .footer__container {
-  width: 1220px;
+  width: 1120px;
   height: 380px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  border-bottom: 0.6px solid #c4c4c4;
 }
 
 .footer__text {
