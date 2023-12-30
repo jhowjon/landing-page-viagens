@@ -13,6 +13,5 @@ https://jhowjon.github.io/-landing-page-viagens/
 [FIGMA](https://www.figma.com/file/8JwgN6Ggh1NI7F3ZkwzJZH/Mentoria-Frontend?node-id=1751%3A1&mode=dev)
 
 ## 👾 Technologies
-
 - HTML
 - CSS
